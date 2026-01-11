@@ -10,10 +10,16 @@ Setup the virtual environment, if you haven't aready
     source .venv/bin/activate
     pip install -r requirements.txt
 
+Install the browser
+
+    playwright install chromium --no-shell
+
 When you're done, run
 
     deactivate
 
 ## Instructions
+
+Run the program using python
 
     python3 main.py
